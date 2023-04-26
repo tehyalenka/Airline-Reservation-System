@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Airline Reservation System</title>
+	<link rel="stylesheet" href="style2.css">
+</head>
+<body>
+	<header>
+		<h1>Airline Reservation System</h1>
+	</header>
+	<div class="container">
+		<ul>
+			<li><a class="item" href="home.html" target="_self">&#8962; Home</a></li>
+			<li><a class="item" href="flight.html" target="_self">&#9992; Flights</a></li>
+			<li><a class="item" href="booking.html" target="_self">&#9998; Bookings</a></li>
+			<li><a class="item" href="contact.html">&#9742; Contact Us</a></li>
+      <li><a class="item" href="#">Login/Sign Up</a></li>
+		</ul>
+	</div>
+  <div class="quote">
+    <h1>WELCOME TO ONLINE FLIGHT BOOKING SYSTEM</h1>
+  </div>
+  <img src="airplane.jpeg" alt="airplane" class="airplane"/>
+  <main>
+		<section class="hero">
+			<h2>Book your next flight with us today!</h2>
+		</section>
+		<section class="search">
+			<h2 class="search-flight">Search Flights</h2>
+    <div class="dropdown">
+			<form action="#" method="get">
+				<label for="trip"></label>
+				<select name="trip" id="trip">
+					<option value="Round-Trip">Round Trip</option>
+  				<option value="One-way">One way</option>
+				</select>
+				<label for="class"></label>
+				<select name="class" id="class">
+					<option value="Premium-Economy">Premium Economy</option>
+					<option value="Economy">Economy</option>
+  				<option value="Business">Business</option>
+					<option value="First-class">First class</option>
+				</select>
+        <label for="adult"> Adult </label>
+				<select name="adult" id="adult">
+          <option value="0">0</option>
+					<option value="1">1</option>
+  				<option value="2">2</option>
+					<option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+				</select>
+        <label for="child"> Child </label>
+				<select name="child" id="child">
+          <option value="0">0</option>
+					<option value="1">1</option>
+  				<option value="2">2</option>
+					<option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+				</select>
+        <label for="infant"> Infant </label>
+				<select name="infant" id="infant">
+          <option value="0">0</option>
+					<option value="1">1</option>
+				</select>
+      </form>
+      </div>
+      <div class="details">
+      <form>
+				<label for="departure"> &#9675; Departure:</label>
+				<input type="text" name="departure" id="departure">
+				<label for="destination">&#9675; Destination:</label>
+				<input type="text" name="destination" id="destination">
+				<label for="date">Date:</label>
+				<input type="date" name="date" id="date">
+				<input type="submit" value="Search">
+			</form>
+      </div>
+		</section>
+	</div>
+	</main>
+	<footer>
+		<p>&copy; 2023 Airline Reservation System</p>
+	</footer>
+</body>
+</html>	

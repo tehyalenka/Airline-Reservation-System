@@ -1,0 +1,210 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: midnightblue;
+	color: #fff;
+	padding: 1.5rem;
+	text-align: center;
+  margin:1.3rem;
+}
+
+div>.container{
+	background-color:midnightblue;
+  color:white ;
+	padding:1rem;
+	margin:0.5rem;
+}
+
+div ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: space-around;
+}
+
+div li {
+	display: inline-block;
+}
+
+div a {
+	color: white;
+	text-decoration:none;
+	padding: 1rem;
+}
+
+div a:hover {
+	background-color: white;
+	color:black;
+}
+
+.container{
+	background-color: midnightblue;
+	color: white;
+	display:flex;
+	justify-content:space-around;
+	padding:1rem;
+	margin:1.3rem;
+}
+.item{
+	flex-basis: 100%;
+  text-align: center;
+  padding:0.8rem;
+  margin:4rem;
+}
+
+.hero {
+	background-position: center;
+	height:25%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	color:black;
+}
+
+.search,.book {
+	padding: 2rem;
+	align-items: center;
+}
+
+.search h2 ,.book h2{
+	margin-top: 0;
+}
+
+.search label,.book label {
+	display: block;
+	margin-bottom: 0.3rem;
+}
+#trip{
+	border:none;
+	display: inline-block;
+	font-size: 16px;
+}
+#class{
+	border:none;
+	margin-bottom: 1rem;
+	font-size: 16px;
+}
+
+.search input[type="text"], .search input[type="date"],.book input[type="text"]{
+	padding: 0.5rem;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	margin-bottom: 0.6rem;
+	display:inline-block;
+	width: 30%;
+	box-sizing: border-box;
+	text-align:center;
+}
+
+.search input[type="submit"] {
+	background-color:midnightblue;
+	color: white;
+	border: none;
+	cursor: pointer;
+	display:block;
+	padding: 0.6rem;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	margin-bottom:3.5rem;
+	width: 30%;
+	box-sizing: border-box;
+	margin-left:55%;
+	margin-top:1.36rem;
+}
+.book input[type="submit"]{
+	text-align: center;
+	background-color:midnightblue;
+	color: white;
+	border: none;
+	cursor: pointer;
+	display:block;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	margin-bottom: 0.6rem;
+	width: 30%;
+	box-sizing: border-box;
+	margin-left:35%;
+	margin-top:1.25rem;
+}
+
+.search input[type="submit"]:hover {
+	background-color: gray;
+	color: white;
+}
+
+.book input[type="submit"]:hover {
+	background-color: gray;
+	color: white;
+}
+
+footer {
+	background-color: #eee;
+	padding: 10px;
+	text-align: center;
+}
+
+.airplane{
+	width:97%;
+	height:24rem;
+	margin: 20px;
+}
+.quote{
+	text-align: center;
+	font-family:'Times New Roman', Times, serif;
+	color:midnightblue;
+}
+#adult{
+	display:inline-block;
+	width:6rem;
+	text-align:left;
+	margin-bottom: 15px;
+}
+#child{
+	display:inline-block;
+	width:6rem;
+	text-align:left;
+	margin-bottom: 15px;
+}
+#infant{
+	display:inline-block;
+	width:6rem;
+	text-align:left;
+	margin-bottom: 15px;
+}
+.dropdown{
+	float:left;
+	margin-left:30rem;
+	margin-right:6rem;
+}
+.details{
+	margin-right:6rem;
+	display:block;
+}
+.search-flight{
+	text-align: center;
+	margin-bottom:2rem;
+}
+.book{
+	text-align: center;
+	margin-bottom: 6rem;
+}
+.booking-details{
+	text-align: center;
+}
+.contact{
+	text-align: center;
+	margin-top:6rem;
+	margin-bottom:18.9rem;
+}
+.contact>p{
+	font-size:20px;
+	font-weight: bold;
+}
